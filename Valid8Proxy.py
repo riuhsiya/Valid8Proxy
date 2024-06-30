@@ -167,7 +167,7 @@ def main():
 
     proxy_urls_SOCKS5 = [
         "https://raw.githubusercontent.com/riuhsiya/nh/main/ps5_66.29.128.246.txt",
-        "https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks5/socks5.txt",
+        # "https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks5/socks5.txt",
         # "https://www.proxy-list.download/api/v1/get?type=socks5",
         # "https://api.openproxylist.xyz/socks5.txt",
         # "https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks5/socks5.txt",
