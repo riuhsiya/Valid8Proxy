@@ -126,7 +126,7 @@ def main():
     print_banners()
     print(f"{C}Let's find some validated proxies!{W}\n")
     try:
-        num_proxies_to_print = int(input(f"{Fore.YELLOW}Enter the number of proxies you want to print{Fore.CYAN}(ex: 5):{Style.RESET_ALL}"))
+        num_proxies_to_print = int(input(f"{Fore.YELLOW}Enter the number of proxies you want to print{Fore.CYAN}(ex: 4):{Style.RESET_ALL}"))
     except ValueError:
         print("Invalid input. Please enter a valid number.")
         sys.exit(1)
@@ -166,15 +166,16 @@ def main():
     ]
 
     proxy_urls_SOCKS5 = [
-        "https://www.proxy-list.download/api/v1/get?type=socks5",
-        "https://api.openproxylist.xyz/socks5.txt",
-        "https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks5/socks5.txt",
-        "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks5.txt",
-        "https://raw.githubusercontent.com/elliottophellia/yakumo/master/results/socks5/global/socks5_checked.txt",
-        "https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/socks5.txt",
-        "https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks5.txt",
-        "https://raw.githubusercontent.com/rdavydov/proxy-list/main/proxies_anonymous/socks5.txt",
-        "https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks5.txt",
+        https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks5/socks5.txt
+        # "https://www.proxy-list.download/api/v1/get?type=socks5",
+        # "https://api.openproxylist.xyz/socks5.txt",
+        # "https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks5/socks5.txt",
+        # "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks5.txt",
+        # "https://raw.githubusercontent.com/elliottophellia/yakumo/master/results/socks5/global/socks5_checked.txt",
+        # "https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/socks5.txt",
+        # "https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks5.txt",
+        # "https://raw.githubusercontent.com/rdavydov/proxy-list/main/proxies_anonymous/socks5.txt",
+        # "https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks5.txt",
 
     ]
 
